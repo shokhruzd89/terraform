@@ -15,10 +15,6 @@ resource "aws_route_table" "training" {
 }
 
 resource "aws_route_table_association" "a" {
-  subnet_id      = aws_subnet.devops_subnet_1.id
-  route_table_id = aws_route_table.training.id
-}
-resource "aws_route_table_association" "b" {
-  subnet_id      = aws_subnet.devops_subnet_2.id
+  subnet_id      = aws_subnet.devops_subnet_1[0].id
   route_table_id = aws_route_table.training.id
 }
