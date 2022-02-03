@@ -1,5 +1,5 @@
 # variable "ami_id" {
-#   default = "ami-061ac2e015473fbe2"
+#   default = "ami-0231217be14a6f3ba"
 # }
 variable "environment" {
     default = ""

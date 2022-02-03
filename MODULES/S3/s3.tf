@@ -6,7 +6,7 @@ locals {
   prefix = "beginig"
 }
 
-resource "aws_s3_bucket" "devops-s3-1" {
+resource "aws_s3_bucket" "devops-s3-1-2-3" {
   bucket = "${local.bucket_name}-${local.region}-${local.s3_suffix}-${var.environment}"
   acl    = var.s3_acl
   server_side_encryption_configuration {

@@ -1,6 +1,6 @@
 variable "region" {
   type    = string
-  default = "us-east-1"
+  default = "us-east-2"
 }
 
 variable "versioning_enabled" {
@@ -9,7 +9,7 @@ variable "versioning_enabled" {
 }
 
 variable "bucket_name" {
-  default = "rady-paskalev-123456"
+  default = "shokhruz-123456"
 }
 
 variable "s3_acl" {
